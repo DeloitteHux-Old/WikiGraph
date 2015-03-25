@@ -1,8 +1,18 @@
 # Wikipedia Graph Analysis
 
-## Import wikipedia into GraphX
+## Import Wikipedia into GraphX
 
-## Project wikipedia graph onto categories and analyse with igrpaph
+See `wikigraph.scala`.
 
-## For each category, take the corresponding subgraph and the top
-   pagerank and indegree pages there as the new seed pages
+## Category Graph
+
+Project wikipedia graph onto categories and analyse with igraph/R.
+
+## Seed Pages
+
+For each category, take the corresponding subgraph and the top
+
+* pagerank and/or
+* indegree
+
+pages there are the new seed pages.

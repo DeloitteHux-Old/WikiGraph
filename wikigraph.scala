@@ -2,6 +2,7 @@
 
 import org.apache.spark.SparkContext._
 import org.apache.spark.SparkContext
+import org.apache.spark.graphx._
 
 val home = "/user/misos/wikigraph/"
 
@@ -35,7 +36,7 @@ val adjacency = edges.flatMap(s => { // 116330611
   })
 }).cache()
 
-import org.apache.spark.graphx._
+
 
 val wg = Graph.apply(page_MD,adjacency).cache()
 

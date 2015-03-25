@@ -53,6 +53,8 @@ val category_edges = adjacency.map({
       ((sc._1, dc._1), weight * sc._2 * dc._2)
 }).reduceByKey(_+_).collect()
 
+
+// Prune output data
 val pw = new java.io.PrintWriter("category-edges.tsv")
 category_edges.foreach({ case ((c1,c2),w) =>
   pw.println(c1 + "\t" + c2 + "\t" + w.toString)})
@@ -61,3 +63,10 @@ pw.close
 val pw = new java.io.PrintWriter("category-weights.tsv")
 category_table.foreach({ case (c,w) => pw.println(c + "\t" + w.toString)})
 pw.close
+
+
+val qcSeedPages = sc.textFile("/user/dejan/QC_wikipedia.txt").filter(_.split("\t").length > 1).map( s => {
+   val array = s.split("\t")
+   (array.head,array.tail)
+   }).cache()
+

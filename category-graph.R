@@ -72,8 +72,9 @@ head(edges[order(edges$weight.l,decreasing=TRUE),])
 loglog.hist(edges$weight.t,breaks=40,xlab="weight",panel.first=grid(),
             main="Edge Weight Histogram (scaled by Total)")
 
-loglog.hist(edges$weight.l,breaks=40,xlab="weight",panel.first=grid(),
-            main="Edge Weight Histogram (scaled by Self-Link)")
+capture.graphics(file="charts/edge-weight-hist.png",
+  loglog.hist(edges$weight.l,breaks=40,xlab="weight",panel.first=grid(),
+              main="Edge Weight Histogram (scaled by Self-Link)"))
 
 ## graph
 
@@ -103,12 +104,58 @@ my.graph.plot <- function (graph, file=NULL) {
   })
 }
 
-my.graph.plot(big,file="component-41.png")
+my.graph.plot(big,file="charts/component-41.png")
 
 ## whole graph
 p.s.t(gr <- graph.data.frame(edges, vertices = vertices.dt))
 clusters(gr,mode="weak")        # connected
-p.s.t(gr.communities <- multilevel.community(as.undirected(gr)))
+
+(gru <- as.undirected(gr,edge.attr.comb=
+                        list(weight="sum",weight.t="sum",weight.l="sum")))
+(gr.tcommunities <- multilevel.community(gru, weight=E(gru)$weight.t))
+sorted.table(gr.tcommunities$membership)
+##   1   3   2   4
+## 210  79  47  27
+(gr.lcommunities <- multilevel.community(gru, weight=E(gru)$weight.l))
+sorted.table(gr.lcommunities$membership)
+##   2   1   5   3   4
+## 115  81  71  49  47
+(gr.wcommunities <- multilevel.community(gru, weight=E(gru)$weight))
+sorted.table(gr.wcommunities$membership)
+##   5   3   1   2   4
+## 168  74  52  41  28
+
+plot.communities <- function (gg, name) {
+  header(name)
+  print(gg)
+  mlcl <- multilevel.community(gg, weight=E(gg)$weight.l)
+  tab <- sorted.table(mlcl$membership)
+  print(tab)
+  ret <- lapply(names(tab), function (n) {
+    sg <- induced.subgraph(gg, which(mlcl$membership == as.integer(n)))
+    my.graph.plot(sg,file=paste0("charts/",name,".",n,".png"))
+    list(graph=sg,
+         subgraphs=(if (length(V(sg)) <= 20) NULL
+                    else plot.communities(sg,paste0(name,".",n))))
+  })
+  names(ret) <- paste(name,names(tab),sep=".")
+  ret
+}
+p.s.t(grs <- plot.communities(gru,"c"))
+
+mycat <- "Style & Fashion\\Accessories\\Watches"
+
+Filter(function(z) mycat %in% V(z$graph)$name, grs)
+Filter(function(z) mycat %in% V(z$graph)$name, grs$c.3$subgraphs)
+Filter(function(z) mycat %in% V(z$graph)$name, grs$c.3.2$subgraphs)
+
+
+grs
+mycat %in% V(gru)$name
+
+(gr.l.4 <- induced.subgraph(gru, which(gr.lcommunities$membership == 4)))
+p.s.t(my.graph.plot(gr.l.4))
+
 
 ## filter vertexes
 (t1 <- graph.data.frame(edges[edges$weight.t >= 1,],

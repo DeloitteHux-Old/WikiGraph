@@ -5,7 +5,7 @@ import org.apache.spark.SparkContext
 import org.apache.spark.graphx._
 
 def kwcPrFileName(fileType:String, category:String): String = {
-  "kwc-"+fileType+"-"+ category.replace('\\','-')+".tsv"
+  "kwc-"+fileType+"-"+ category.replace('\\','-').replace('/','-')+".tsv"
 }
 
 object PageRankOrder extends Ordering[(Long, (((String, scala.collection.immutable.Map[String,Double]), Double), Int))] {
@@ -16,19 +16,27 @@ object IndegreeOrder extends Ordering[(Long, (((String, scala.collection.immutab
   override def compare(x: (Long, (((String, Map[String, Double]), Double), Int)), y: (Long, (((String, Map[String, Double]), Double), Int))): Int = y._2._2.compareTo(x._2._2)
 }
 
+val junkCategoriesTreshold = Map("World Localities" -> 0.95)
+
+def removeJunkCategories(junkCategoriesTreshold: Map[String, Double], categories: Array[(String, Double)]): Array[(String, Double)] = {
+  categories.toList.filter { case (name: String, score: Double) => junkCategoriesTreshold.get(name).getOrElse(Double.MinValue) < score}.toArray
+}
+
 val home = "/user/misos/wikigraph/"
 
 val edges = sc.textFile(home+"edges.txt",300).cache()
 // edges.partitions.length ==> 10
 // edges.count() ==> 4809635
 
-val categories = sc.textFile(home+"categories").map(s => { // 4657693
+val categories = sc.textFile(home + "categories").map(s => {
+  // 4657693
   val v = s.split("\t")
-  (v.head,v.tail.map(cw => {
+  (v.head, v.tail.map(cw => {
     val cwv = cw.split(":")
     (cwv(0), cwv(1).toDouble) // (category name, category weight)
   })) // (page name, Array((category name, category weight)))
-})
+}).map { case (pageName: String, categoryNames: Array[(String, Double)]) =>
+  (pageName, removeJunkCategories(junkCategoriesTreshold, categoryNames)) }
 
 val vertexes = sc.textFile(home+"vertex_ids.txt").map(s => { // 4831649
   val v = s.split("\t")
@@ -59,7 +67,7 @@ val category_table = categories.flatMap(t => t._2).reduceByKey(_+_).collect()
 
 for((my_category,weight) <- category_table) {
   val my_page_MD = page_MD.filter({
-    case (id, (pagen, cats)) => cats.contains(my_category)
+    case (id, (pagen, cats)) => cats.get(my_category).getOrElse(Double.MinValue) == cats.maxBy(_._2)._2
   })
 
   val my_adjacency = adjacency.map({ case Edge(src, dst, w) =>

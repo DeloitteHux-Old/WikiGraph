@@ -4,6 +4,18 @@ import org.apache.spark.SparkContext._
 import org.apache.spark.SparkContext
 import org.apache.spark.graphx._
 
+def kwcPrFileName(fileType:String, category:String): String = {
+  "kwc-"+fileType+"-"+ category.replace('\\','-')+".tsv"
+}
+
+object PageRankOrder extends Ordering[(Long, (((String, scala.collection.immutable.Map[String,Double]), Double), Int))] {
+  override def compare(x: (Long, (((String, Map[String, Double]), Double), Int)), y: (Long, (((String, Map[String, Double]), Double), Int))): Int = y._2._1._2.compareTo(x._2._1._2)
+}
+
+object IndegreeOrder extends Ordering[(Long, (((String, scala.collection.immutable.Map[String,Double]), Double), Int))] {
+  override def compare(x: (Long, (((String, Map[String, Double]), Double), Int)), y: (Long, (((String, Map[String, Double]), Double), Int))): Int = y._2._2.compareTo(x._2._2)
+}
+
 val home = "/user/misos/wikigraph/"
 
 val edges = sc.textFile(home+"edges.txt",300).cache()
@@ -44,25 +56,44 @@ val adjacency = edges.flatMap(s => { // 116,330,611
 val category_table = categories.flatMap(t => t._2).reduceByKey(_+_).collect()
 
 // subgraph
-val my_category = "Automotive\\Manufacturers\\Ferrari"
-val my_page_MD = page_MD.filter({ // 2867
-  case (id,(pagen,cats)) => cats.contains(my_category)
-})
-val my_adjacency = adjacency.map({case Edge(src,dst,w) =>
-  (src,(dst,w))}).join(my_page_MD).map({case (src,((dst,w),md)) =>
-    (dst,(src,w))}).join(my_page_MD).map({case (dst,((src,w),md)) =>
-      Edge(src,dst,w)}).cache() // 59733
 
-val my_graph = Graph.apply(my_page_MD,my_adjacency).cache()
-val my_pr = my_graph.staticPageRank(5).cache().vertices
-val my_indeg = my_graph.inDegrees
-val my_pages = my_page_MD.join(my_pr).join(my_indeg)
+for((my_category,weight) <- category_table) {
+  val my_page_MD = page_MD.filter({
+    case (id, (pagen, cats)) => cats.contains(my_category)
+  })
 
-val pw = new java.io.PrintWriter("ferrari.tsv")
-my_pages.foreach({ case (id,(((pagen,cats),pr),indeg)) =>
-  println(pagen + "\t" + pr.toString + "\t" + indeg.toString + "\t" +
-    cats.map({case (c,w) => c+":"+w.toString}).mkString("",",",""))})
-pw.close
+  val my_adjacency = adjacency.map({ case Edge(src, dst, w) =>
+    (src, (dst, w))
+  }).join(my_page_MD).map({ case (src, ((dst, w), md)) =>
+    (dst, (src, w))
+  }).join(my_page_MD).map({ case (dst, ((src, w), md)) =>
+    Edge(src, dst, w)
+  }).cache()
+
+  val my_graph = Graph.apply(my_page_MD, my_adjacency).cache()
+  val my_pr = my_graph.staticPageRank(5).cache().vertices
+  val my_indeg = my_graph.inDegrees
+  val my_pages = my_page_MD.join(my_pr).join(my_indeg).cache()
+  val page_rank_top = my_pages.takeOrdered(100)(PageRankOrder).toList
+  val indegree_rank_top = my_pages.takeOrdered(100)(IndegreeOrder).toList
+
+
+  val pwpr = new java.io.PrintWriter(kwcPrFileName("pr",my_category))
+  page_rank_top.foreach({ case (id, (((pagen, cats), pr), indeg)) =>
+    pwpr.println(pagen + "\t" + pr.toString + "\t" + indeg.toString + "\t" +
+      cats.map({ case (c, w) => c + ":" + w.toString }).mkString("", ",", ""))
+  })
+  pwpr.close
+
+  val pw = new java.io.PrintWriter(kwcPrFileName("indegrees",my_category))
+  indegree_rank_top.foreach({ case (id, (((pagen, cats), pr), indeg)) =>
+    pw.println(pagen + "\t" + pr.toString + "\t" + indeg.toString + "\t" +
+      cats.map({ case (c, w) => c + ":" + w.toString }).mkString("", ",", ""))
+  })
+  pw.close
+
+}
+
 
 
 // project to categories (125784 rows)
@@ -89,8 +120,11 @@ category_table.foreach({ case (c,w) => pw.println(c + "\t" + w.toString)})
 pw.close
 
 
-val qcSeedPages = sc.textFile("/user/dejan/QC_wikipedia.txt").filter(_.split("\t").length > 1).map( s => {
+/*val qcSeedPages = sc.textFile("/user/dejan/QC_wikipedia.txt").filter(_.split("\t").length > 1).map( s => {
    val array = s.split("\t")
    (array.head,array.tail)
    }).cache()
+*/
+
+val rawCategories = sc.textFile("/user/dejan/QC_wikipedia.txt").filter(_.split("\t").length > 1).map( s => s.split("\t").head).collect
 

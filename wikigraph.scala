@@ -65,9 +65,9 @@ val category_table = categories.flatMap(t => t._2).reduceByKey(_+_).collect()
 
 // subgraph
 
-for((my_category,weight) <- category_table) {
+def calculateSubGraphs = for((my_category,weight) <- category_table) {
   val my_page_MD = page_MD.filter({
-    case (id, (pagen, cats)) => cats.get(my_category).getOrElse(Double.MinValue) == cats.maxBy(_._2)._2
+    case (id, (pagen, cats)) => cats.contains(my_category) && cats.get(my_category).getOrElse(Double.MinValue) == cats.maxBy(_._2)._2
   })
 
   val my_adjacency = adjacency.map({ case Edge(src, dst, w) =>

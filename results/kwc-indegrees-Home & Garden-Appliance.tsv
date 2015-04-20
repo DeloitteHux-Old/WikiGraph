@@ -1,0 +1,100 @@
+HVAC	16.144537352983512	157	Pets & Animals\Aquariums:0.658614,Health:0.678443,Sciences\Chemistry:0.525077,Home & Garden\Appliance:0.99039,Home & Garden:0.754369
+Air conditioning	16.50268783976587	150	Home & Garden\Appliance:0.999035
+Refrigerator	11.199153481664961	96	Home & Garden\Kitchen and Dining:0.941227,Shopping\Luxury goods:0.651,Food & Drink\Alcoholic Beverages\Beer:0.657905,Food & Drink\Cooking & Recipes:0.695066,Food & Drink:0.982378,Home & Garden\Appliance:1.0,Health\Nutrition:0.535347
+Home appliance	9.149229331212442	91	Electronics & Computing:0.965384,Food & Drink\Cooking & Recipes:0.651,Electronics & Computing\Consumer Electronics:0.957491,Home & Garden\Appliance:0.999996
+Heat exchanger	8.042009754067532	73	Home & Garden\Appliance:0.790994
+Washing machine	8.107580037462977	70	Home & Garden\Home Repair & Improvements:0.665,Style & Fashion\Clothing:0.70614,Home & Garden\Appliance:0.999078
+Refrigerant	9.176036325212806	64	Sciences\Chemistry:0.685728,Home & Garden\Appliance:0.916451
+Home automation	7.933979726272634	64	Electronics & Computing:0.86806,Electronics & Computing\Cell Phone & PDA:0.672808,Home & Garden\Kitchen and Dining:0.878199,Arts & Entertainment\Hobbies:0.662938,Electronics & Computing\Home Theater & TV:0.709857,Home & Garden\Appliance:0.999998,Home & Garden:0.799002
+Heat pump	6.476918040315505	58	Health\Health Conditions\Cold & Flu:0.651,Home & Garden\Appliance:0.999956
+Electrolux	8.059495862149612	50	Home & Garden\Appliance:0.994346
+General Electric	8.165081263247988	42	Arts & Entertainment\Hobbies\Photography:0.651,Finance\Investing\Stocks:0.569731,Home & Garden\Appliance:0.744346
+Small appliance	5.064272827721498	41	Electronics & Computing:0.887357,Home & Garden\Kitchen and Dining:0.390945,Electronics & Computing\Consumer Electronics:0.882553,Home & Garden\Appliance:0.999995
+Thermostat	4.12923339576695	40	Sciences\Chemistry:0.510427,Home & Garden\Appliance:0.985035
+Chlorofluorocarbon	8.40038859566094	39	Home & Garden\Appliance:0.878951
+Propane	4.472592716489817	39	Sciences\Chemistry:0.631986,Automotive\Hybrid & Alternative Vehicle:0.726538,Home & Garden\Appliance:0.730887
+ASHRAE	4.834158012135594	35	Education\Continuing Education:0.651,Home & Garden\Appliance:0.805256
+Ventilation (architecture)	3.853663141072337	35	Home & Garden\Kitchen and Dining:0.892422,Sciences\Earth science:0.776185,News\Weather:0.795538,Home & Garden\Bed and bath:0.677965,Business\Agriculture & Forestry:0.703246,Sciences\Chemistry:0.791584,Home & Garden\Appliance:0.978334
+Manufacturing	3.372599839991813	32	Automotive\Manufacturers\G.M.:0.687648,Business\Energy & Utilities:0.573956,Automotive\Manufacturers\Toyota:0.678709,Home & Garden\Appliance:0.899565
+Whirlpool Corporation	3.8661368669423415	31	Home & Garden\Appliance:0.99932
+Central heating	3.5323468892073504	31	Home & Garden:0.353934,Home & Garden\Appliance:0.932442
+Watt	3.9377473528881444	30	Home & Garden\Appliance:0.19247
+Water heating	2.4881881801574486	29	Electronics & Computing:0.671096,Automotive\Hybrid & Alternative Vehicle:0.740976,News\Weather:0.698208,Sciences\Ecology & Environment:0.809892,Food & Drink\Cooking & Recipes:0.680021,Home & Garden\Appliance:0.999831,Health\Nutrition:0.88432
+Coefficient of performance	2.422720581742158	26	Home & Garden\Appliance:0.759369
+Condenser (heat transfer)	2.3186371353603272	25	Home & Garden\Appliance:0.941125
+Furnace	3.340998718968934	25	Home & Garden\Appliance:0.862679
+Vacuum cleaner	2.2000217689442594	24	Home & Garden\Home Repair & Improvements:0.714236,Automotive\Pickup/Trucks & Accessories:0.651,Home & Garden:0.651,Home & Garden\Appliance:0.966153
+Duct (HVAC)	2.7482331040630843	23	Home & Garden\Appliance:0.708919
+Heating element	2.7069025800066164	23	Home & Garden\Appliance:0.604869
+Energy Star	2.7699593486250387	22	Home & Garden\Appliance:0.786818
+Air handler	1.8904285065619548	22	Sciences\Astronomy:0.59483,Style & Fashion\Skin & Facial Care:0.651,Sciences\Earth science:0.757415,Style & Fashion\Cosmetic procedures:0.651,Business\Agriculture & Forestry:0.535011,Sciences\Chemistry:0.613078,Home & Garden\Appliance:0.960599
+Stove	3.179641666668767	22	Food & Drink\Cooking & Recipes:0.753504,Home & Garden\Kitchen and Dining:0.67033,Food & Drink:0.703376,Home & Garden\Appliance:0.908787
+Vapor-compression refrigeration	2.1533986356541375	22	Business\Agriculture & Forestry:0.667949,Automotive\Pickup/Trucks & Accessories:0.651,Food & Drink:0.773382,Sciences\Chemistry:0.650848,Home & Garden\Appliance:0.999444
+Clothes dryer	2.066573180464274	21	Style & Fashion\Clothing:0.9675,Home & Garden\Appliance:0.999966
+Geothermal heat pump	1.8350881221070157	21	Electronics & Computing:0.593026,Sciences\Astronomy:0.752693,Sciences\Earth science:0.76471,News\Weather:0.789679,Business\Agriculture & Forestry:0.554125,Sciences\Chemistry:0.766922,Home & Garden\Appliance:0.999982
+Ozone depletion potential	3.4625059181208053	21	Sciences\Chemistry:0.591581,Home & Garden\Appliance:0.716014
+1,1,1,2-Tetrafluoroethane	3.109640673451766	20	Automotive:0.651,Home & Garden\Appliance:0.768365
+Toaster	1.9699893256785295	20	Food & Drink\Cooking & Recipes:0.752697,Home & Garden\Appliance:0.963912
+British thermal unit	2.053274765410858	20	Business\Agriculture & Forestry:0.689701,Home & Garden\Kitchen and Dining:0.651,Home & Garden\Appliance:0.950265
+Maytag	2.284754581196151	20	Home & Garden\Appliance:0.900225
+Seasonal thermal energy storage	2.59272299752614	20	Business\Agriculture & Forestry:0.580311,Sciences\Ecology & Environment:0.943383,Business\Energy & Utilities:0.528329,Home & Garden\Gardening & Landscaping:0.689573,Sciences\Chemistry:0.498166,Home & Garden\Appliance:0.988139,Home & Garden:0.930675
+Chiller	1.9003370056291846	20	Home & Garden\Appliance:0.689157
+ZigBee	2.1753245169709206	19	Home & Garden\Appliance:0.710393,Electronics & Computing\Electrical & Components\Bateries:0.672742
+Freon	2.3229395945817544	18	Home & Garden\Appliance:0.695375
+Thermal comfort	2.809576090587036	17	Style & Fashion\Clothing:0.879443,Home & Garden:0.521941,Health\Mental health\Psychology/Psychiatry:0.666096,Home & Garden\Appliance:0.997271
+Radiator	2.110619573962549	17	Automotive\Auto Parts & Repair:0.712118,Electronics & Computing:0.72984,Home & Garden\Appliance:0.784438
+Dichlorodifluoromethane	3.365109424629446	17	Home & Garden\Appliance:0.743256
+Ozone depletion	3.1752111265892182	16	Home & Garden\Appliance:0.906651
+Thermal efficiency	1.7920396488060746	16	Home & Garden\Appliance:0.754629
+Cogeneration	1.637324371401206	16	Electronics & Computing:0.697592,Travel\Hotels & Accommodations:0.661851,Business\Agriculture & Forestry:0.608781,Sciences\Ecology & Environment:0.626527,Business\Energy & Utilities:0.817703,Home & Garden\Appliance:0.982691,Home & Garden:0.603217
+Z-Wave	1.7246640670477444	16	Electronics & Computing:0.722983,Home & Garden\Appliance:0.967395,Electronics & Computing\Software:0.34313
+Carrier Corporation	1.525152591909831	16	Home & Garden\Appliance:0.814239
+Humidifier	1.8304643840462964	16	Home & Garden\Appliance:0.999963
+Absorption refrigerator	2.1608374278334916	16	Automotive\Campers & RVs:0.656662,Home & Garden\Appliance:0.996859
+Cooling tower	1.940471830757682	16	Business\Agriculture & Forestry:0.646574,Sciences\Chemistry:0.58454,Home & Garden\Appliance:0.933485
+Chlorodifluoromethane	2.8627953368826304	15	Home & Garden\Appliance:0.662173
+Underfloor heating	1.8632087495436656	15	Home & Garden\Appliance:0.814983
+Ozone layer	3.541895822408363	15	Home & Garden\Appliance:0.715412
+Evaporative cooler	1.878487639837219	14	News\Weather:0.727341,Home & Garden\Appliance:0.991693
+Electric heating	1.8700642788721007	14	Electronics & Computing:0.833635,Food & Drink\Cooking & Recipes:0.651,Sciences\Chemistry:0.504836,Home & Garden\Appliance:0.93093
+Dehumidifier	1.6911363558782202	14	Health:0.651,Home & Garden\Appliance:0.984702
+Radiator (heating)	1.8692061140765877	14	Home & Garden\Appliance:0.950797
+Valve	1.402358560672065	14	Games\Video & Computer Games:0.631236,Style & Fashion\Clothing:0.655209,Home & Garden\Appliance:0.738506
+Thermoelectric effect	2.1201639855598318	13	Education:0.651,Home & Garden\Appliance:0.773151
+Indesit Company	1.3878444307777604	13	Finance\Investing\Stocks:0.275197,Home & Garden\Appliance:0.999199
+Radiant heating	1.2810725687024043	13	Home & Garden\Appliance:0.861908
+X10 (industry standard)	1.9341411699606574	13	Automotive\Manufacturers\Jeep:0.651,Electronics & Computing:0.895512,Home & Garden\Appliance:0.919485
+List of home appliances	1.9927628864855458	13	Electronics & Computing:0.723796,Food & Drink\Cooking & Recipes:0.651,Electronics & Computing\Consumer Electronics:0.660818,Home & Garden\Appliance:0.999847
+Hydronics	1.3409071716560328	12	Education\College and University:0.883085,Home & Garden:0.743477,Home & Garden\Appliance:0.970951
+Hotpoint	1.212473560298044	12	Home & Garden\Appliance:0.999402
+Seasonal energy efficiency ratio	1.6751833104449092	12	Electronics & Computing:0.460002,Home & Garden\Appliance:0.998825
+Insteon	1.7560701312393543	12	Electronics & Computing:0.340628,Home & Garden\Appliance:0.973827
+Domestic robot	1.766727443441008	12	Education:0.651,Home & Garden\Appliance:0.965774
+Robert Bosch GmbH	0.8091806762594723	12	Electronics & Computing:0.921,Automotive\Hybrid & Alternative Vehicle:0.95265,Business\Business Operations and Services:0.780659,Finance\Investing:0.96539,Automotive:0.985499,Arts & Entertainment\Books and Literature:0.95,Home & Garden\Appliance:0.99068
+Sunbeam Products	1.2255442595471635	12	Home & Garden\Appliance:0.970182
+Blender	1.2175621369550953	12	Home & Garden\Kitchen and Dining:0.711956,Food & Drink:0.716769,Home & Garden\Appliance:0.762041
+AEG	1.5394527947821786	12	Electronics & Computing\Consumer Electronics:0.675147,Electronics & Computing\Cell Phone & PDA:0.651,Home & Garden\Appliance:0.908549
+Thermal expansion valve	1.5751563170518983	12	Home & Garden\Appliance:0.774463
+Frigidaire	1.6284318541210323	11	Automotive\Hybrid & Alternative Vehicle:0.7561,Automotive\Manufacturers\Chevrolet:0.699118,Automotive\Manufacturers\G.M.:0.999827,Finance\Investing:0.691496,Family & Parenting:0.651,Food & Drink:0.678598,Home & Garden\Appliance:0.999998
+Flue	1.3183860491764527	11	Home & Garden\Appliance:0.537071
+Space heater	1.6834303008839755	11	Home & Garden\Appliance:0.698628
+List of stoves	1.8616422715357839	11	Food & Drink\Cooking & Recipes:0.676049,Home & Garden\Appliance:0.808418
+Heat pump and refrigeration cycle	1.1867152594352275	10	Health\Health Conditions\Cold & Flu:0.878199,Sciences\Chemistry:0.314574,Home & Garden\Appliance:0.987449
+Fireplace	1.1666705203607535	10	Home & Garden\Kitchen and Dining:0.857108,News\Weather:0.872851,Health:0.882022,Sciences\Ecology & Environment:0.707574,Food & Drink\Cooking & Recipes:0.658594,Home & Garden\Appliance:0.944612
+Psychrometrics	1.6562238024681155	10	Home & Garden\Appliance:0.461232
+Joule heating	2.4578649999626965	10	Home & Garden\Appliance:0.805122
+Fan heater	1.268081259791398	10	Home & Garden\Appliance:0.97491
+Heat recovery ventilation	1.263777818577335	10	Home & Garden\Appliance:0.786401
+KitchenAid	0.8332966454365113	10	Home & Garden\Appliance:0.925991
+Miele	0.8203170791232839	10	Home & Garden\Kitchen and Dining:0.688871,Shopping\Luxury goods:0.651,Home & Garden\Appliance:0.988884
+Kenmore (brand)	1.2024650847032823	10	Electronics & Computing\Cameras & Camcorders:0.67144,Home & Garden\Appliance:0.983606
+Masonry heater	2.1147485515273043	10	Home & Garden\Kitchen and Dining:0.639546,Home & Garden\Home Repair & Improvements:0.676166,Home & Garden:0.660487,Home & Garden\Appliance:0.988809
+Kelvinator	1.185490669506835	10	Home & Garden\Appliance:0.978783
+BACnet	1.7063491762643281	10	Home & Garden:0.588059,Home & Garden\Appliance:0.752321
+R-410A	1.4082261080506684	10	Home & Garden\Appliance:0.833652
+Gas heater	1.3414361584964842	10	Home & Garden\Appliance:0.700595
+BSH Bosch und Siemens Hausgeräte	0.937346512854083	10	Food & Drink\Cooking & Recipes:0.654802,Electronics & Computing\Consumer Electronics:0.665,Home & Garden\Appliance:0.999675
+Kettle	0.7883614159285414	10	Food & Drink\Cooking & Recipes:0.663096,Home & Garden\Appliance:0.915825
+Induction heating	1.4094336322775187	9	Home & Garden\Appliance:0.804923
+Waste heat	1.204218638637343	9	Electronics & Computing:0.546384,Style & Fashion\Skin & Facial Care:0.651,Style & Fashion\Cosmetic procedures:0.651,Sciences\Ecology & Environment:0.902726,Home & Garden\Appliance:0.983641,Health\Nutrition:0.507264
+The Hoover Company	0.9587156962205897	9	Food & Drink\Candy & Snacks:0.878199,Home & Garden\Appliance:0.992449

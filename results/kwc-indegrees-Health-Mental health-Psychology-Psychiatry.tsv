@@ -1,0 +1,100 @@
+Psychology	143.63451215605843	1641	Sports:0.655405,Health\Mental health\Psychology/Psychiatry:1.0,Health\Mental health:0.929382,Health\Aging and Geriatrics:0.839302,Health:0.898874,Health\Health Conditions\Depression:0.742605,Education:0.701232
+Psychiatry	55.29350160988186	578	Health\Mental health\Psychology/Psychiatry:0.999999,Business\Biotech/Biomedical:0.822842,Health\Mental health:0.880303,Health:0.66813,Health\Pharmacy:0.641237,Health\Health Conditions\Depression:0.772217,Health\Health Conditions\Bipolar Disorder:0.509834
+Sigmund Freud	35.69400592208311	489	Health\Mental health\Psychology/Psychiatry:0.980609,Finance\Investing:0.651,Health\Health Conditions:0.660785,Sciences:0.95,Lifestyle\Religion and Belief:0.924123,Arts & Entertainment\Books and Literature:0.952604,Family & Parenting\Babies & Toddlers:0.68253
+Psychiatrist	40.96522878013841	460	Health\Mental health\Psychology/Psychiatry:0.999465,Health\Mental health:0.563292,Health:0.69165,Health\Health Conditions:0.699345,Health\Health Conditions\Depression:0.667877
+American Psychological Association	38.02937189283414	421	Arts & Entertainment\Books and Literature:0.95165,Education:0.771038,Health\Mental health\Psychology/Psychiatry:0.96916
+Psychologist	31.352181572456203	377	Health\Mental health\Psychology/Psychiatry:0.999997,Health\Mental health:0.921328,Law-Government-Politics:0.651,Health:0.855977,Health\Health Conditions\Depression:0.742295,Education:0.932287,Health\Nutrition:0.446472
+Psychoanalysis	25.324046442474582	362	Health\Mental health\Psychology/Psychiatry:0.998934,Health\Mental health:0.59387,Health:0.97866,Health\Mental health\Panic/Anxiety Disorders:0.347994,Health\Health Conditions:0.899132,Health\Health Conditions\Depression:0.865876
+Social psychology	21.45819117245915	329	Health\Mental health\Psychology/Psychiatry:0.999983,Health\Mental health:0.700604,Health\Aging and Geriatrics:0.563762,Health\Health Conditions\Depression:0.654032,Online communities\Social networking:0.854938
+Neuroscience	24.069054332298265	307	Health\Mental health\Psychology/Psychiatry:0.968293,Business\Biotech/Biomedical:0.910773,Health:0.59373,Sciences\Chemistry:0.817487,Sciences\Computer science:0.767666,Education:0.92089,Health\Health Conditions\Epilepsy:0.520939
+Cognition	18.9445519521913	277	Health\Mental health\Psychology/Psychiatry:0.999966,Family & Parenting\Kids & Teens:0.657501,Health:0.557789,Sciences\Computer science:0.788239,Education:0.822836
+Carl Jung	17.43624139752685	251	Health\Mental health\Psychology/Psychiatry:0.99998,Arts & Entertainment\Pop Culture & Celebrity News:0.9975,Arts & Entertainment\Movies/Television:0.95,Sciences:0.95,Lifestyle\Religion and Belief:0.984282,Arts & Entertainment\Books and Literature:0.960322,Arts & Entertainment\Music:0.95
+Perception	19.07307369674603	250	Pets & Animals:0.672218,Health\Mental health\Psychology/Psychiatry:0.993252
+Cognitive science	17.74430156128742	237	Pets & Animals:0.676672,Health\Mental health\Psychology/Psychiatry:0.970344
+Cognitive psychology	17.917673594096875	235	Health\Mental health\Psychology/Psychiatry:0.967482
+Emotion	15.613640942070337	234	Health\Mental health:0.592805,Sciences\Computer science:0.66783,Health\Mental health\Psychology/Psychiatry:0.998366
+American Psychiatric Association	19.023479578091933	226	Arts & Entertainment\Books and Literature:0.951524,Health\Health Conditions\Depression:0.511358,Health:0.687408,Health\Mental health\Psychology/Psychiatry:0.998658
+Memory	16.415619912069793	223	Sciences\Computer science:0.519221,Health\Mental health\Psychology/Psychiatry:0.828193
+Consciousness	16.811352126050576	219	Health\Mental health\Psychology/Psychiatry:0.996464
+Diagnostic and Statistical Manual of Mental Disorders	14.245649600684985	207	Health\Mental health\Psychology/Psychiatry:0.99867,Health:0.980523,Health\Health Conditions:0.714288,Health\Pharmacy:0.841951,Arts & Entertainment\Books and Literature:0.950599,Health\Health Conditions\Depression:0.764174,Health\Health Conditions\Bipolar Disorder:0.81126
+Clinical psychology	14.442138263596284	169	Health\Mental health\Psychology/Psychiatry:0.999998,Health\Mental health:0.942706,Family & Parenting\Kids & Teens:0.79904,Health\Aging and Geriatrics:0.491806,Health:0.953343,Health\Health Conditions\Depression:0.765782,Education:0.948693
+Mental disorder	15.838018619361078	169	Health\Health Conditions\A.D.D.:0.651,Health\Mental health\Psychology/Psychiatry:0.999607,Health\Mental health:0.986457,Health\Mental health\Panic/Anxiety Disorders:0.794596,Health\Health Conditions:0.998152,Health\Health Conditions\Depression:0.853781,Health\Health Conditions\Bipolar Disorder:0.819061
+Behaviorism	13.810188387199855	159	Health\Mental health\Psychology/Psychiatry:1.0,Health\Substance Abuse:0.684813,Health:0.748874,Pets & Animals:0.678853,Health\Health Conditions\Autism/PDD:0.715263,Health\Health Conditions\Depression:0.778267,Education:0.640915
+Personality psychology	10.32609856063429	158	Health\Mental health\Psychology/Psychiatry:0.999998,Health\Mental health:0.624629,Family & Parenting\Kids & Teens:0.516208,Health:0.528084,Health\Health Conditions\Depression:0.696078,Education:0.818658,Online communities\Social networking:0.528129
+Artificial intelligence	12.146341719591158	152	Health\Mental health\Psychology/Psychiatry:0.986919,Electronics & Computing\Software:0.543717,Lifestyle\Religion and Belief:0.544804,Sciences\Computer science:0.982538,Education:0.810965
+William James	12.848368088172082	144	Health\Mental health\Psychology/Psychiatry:0.999282,Health\Mental health:0.571799,Health:0.509848,Lifestyle\Religion and Belief:0.982427,Arts & Entertainment\Books and Literature:0.956771,Health\Health Conditions\Depression:0.477564,Education:0.944928
+Psychiatric hospital	15.547491262408698	138	Health\Mental health\Psychology/Psychiatry:0.999997,Health\Mental health:0.657921,Family & Parenting\Kids & Teens:0.893141,Health:0.865116,Health\Mental health\Panic/Anxiety Disorders:0.607468,Health\Health Conditions\Depression:0.928923,Health\Health Conditions\Bipolar Disorder:0.923742
+Mind	9.210844448630274	137	Health\Mental health\Psychology/Psychiatry:0.994009,Health:0.414761,Pets & Animals:0.932979,Lifestyle\Religion and Belief:0.957539,Sciences\Computer science:0.442071
+Attention	9.100111247719127	131	Health\Mental health:0.695377,Education:0.67858,Health\Health Conditions:0.651,Health\Mental health\Psychology/Psychiatry:0.95021
+Developmental psychology	9.370858178051705	129	Health\Mental health\Psychology/Psychiatry:0.994092,Family & Parenting\Kids & Teens:0.897712,Health\Aging and Geriatrics:0.71919,Health:0.542557,Family & Parenting\Babies & Toddlers:0.722715
+Psychopathology	8.040320303185862	123	Health\Mental health\Psychology/Psychiatry:0.984795
+Intelligence	10.03860460911251	122	Pets & Animals:0.687343,Health\Mental health\Psychology/Psychiatry:0.907207
+Evolutionary psychology	8.907996486480988	121	Health\Mental health\Psychology/Psychiatry:0.99994,Health\Mental health:0.506694,Health:0.93592,Style & Fashion\Beauty:0.662514,Law-Government-Politics\Politics:0.665,Sciences\Ecology & Environment:0.706696,Health\Health Conditions\Depression:0.765859
+Unconscious mind	8.2690152380931	120	Health\Health Conditions:0.651,Health\Mental health\Psychology/Psychiatry:0.915844
+Experimental psychology	10.814097565707721	119	Pets & Animals:0.705676,Health\Mental health\Psychology/Psychiatry:0.977086
+Learning	9.983996165183077	116	Education:0.888041,Pets & Animals:0.90836,Family & Parenting\Daycare/Pre School:0.443943,Health\Mental health\Psychology/Psychiatry:0.93075
+Association for Psychological Science	6.785908049911238	109	Health\Health Conditions\Depression:0.516188,Education:0.819722,Health\Mental health\Psychology/Psychiatry:0.999811
+B. F. Skinner	9.58578107024146	108	Health\Mental health\Psychology/Psychiatry:0.992883,Health\Health Conditions\Cancer:0.694299,Health:0.502561,Sciences:0.95,Arts & Entertainment\Books and Literature:0.95165,Education:0.8235,Finance\Retirement & Pension:0.651
+Gestalt psychology	11.364552807873636	108	Health\Mental health\Psychology/Psychiatry:0.989099
+Cognitive neuroscience	9.270886477286608	107	Sciences\Computer science:0.742654,Business\Biotech/Biomedical:0.810119,Family & Parenting\Kids & Teens:0.538667,Health\Mental health\Psychology/Psychiatry:0.999571
+Neuropsychology	7.057487327844167	104	Sciences\Scientific Institutions:0.665769,Pets & Animals:0.736811,Health\Pharmacy:0.695515,Health\Mental health\Psychology/Psychiatry:0.995484
+Scientific method	13.882928108778403	103	Home & Garden\Kitchen and Dining:0.651,Health\Mental health\Psychology/Psychiatry:0.66458
+Weird Tales	14.200951658125215	101	Health\Mental health\Psychology/Psychiatry:0.994822
+Prefrontal cortex	6.581429008519251	99	Health\Mental health\Psychology/Psychiatry:0.941193
+Social science	9.484248402435696	95	Online communities\Social networking:0.7954,Education:0.651161,Health\Mental health\Psychology/Psychiatry:0.811519
+Neuroimaging	8.801289465034602	92	Health:0.644317,Health\Mental health\Psychology/Psychiatry:0.834138
+British Psychological Society	7.814397328249948	90	Health\Mental health\Psychology/Psychiatry:0.999994,Health\Mental health:0.564868,Health\Health Conditions\Depression:0.642833,Education:0.570851,Online communities\Social networking:0.679099
+Philosophy of science	9.152942610945415	89	Health\Mental health\Psychology/Psychiatry:0.995623,Business\Biotech/Biomedical:0.786907,Lifestyle\Religion and Belief:0.896851,Lifestyle\Religion and Belief\Astrology:0.82793,Sciences\Chemistry:0.794255,Sciences\Computer science:0.843331,Education:0.874553
+Ethics	7.640614785978026	87	Lifestyle\Religion and Belief:0.697223,Health\Mental health\Psychology/Psychiatry:0.878388
+Cognitive dissonance	5.4619407871977765	86	Health:0.444821,Health\Mental health\Psychology/Psychiatry:0.966005
+Psychological trauma	5.282823232699731	83	Health\Mental health\Psychology/Psychiatry:0.958407,Health\Mental health:0.802224,Health\Substance Abuse:0.771503,Health\Mental health\Panic/Anxiety Disorders:0.862682,Health\Pharmacy:0.68422,Family & Parenting:0.765361,Family & Parenting\Babies & Toddlers:0.700206
+Classical conditioning	7.007532257296379	80	Pets & Animals\Dogs:0.658698,Health\Mental health\Psychology/Psychiatry:0.95827
+Wilhelm Wundt	7.116299146242624	79	Health\Mental health\Psychology/Psychiatry:0.999506,Health\Mental health:0.521538,Law-Government-Politics\Politics:0.95,Sciences:0.95,Arts & Entertainment\Books and Literature:0.953245,Health\Health Conditions\Depression:0.531443,Education:0.540506
+Visual perception	6.575399562351497	79	Health\Mental health\Psychology/Psychiatry:0.792622
+Alfred Adler	6.32618790546807	77	Health\Mental health\Psychology/Psychiatry:0.999397,Health\Mental health:0.448048,Health:0.541045,Business:0.95,Arts & Entertainment\Books and Literature:0.953661,Health\Health Conditions\Depression:0.539845
+Personality disorder	5.100801945819847	77	Health\Mental health\Psychology/Psychiatry:0.999658,Family & Parenting\Kids & Teens:0.782298,Health\Mental health\Panic/Anxiety Disorders:0.799183,Law-Government-Politics\Politics:0.665,Health\Health Conditions:0.954935,Health\Health Conditions\Depression:0.623708,Health\Health Conditions\Bipolar Disorder:0.918521
+David Hume	7.212478073948068	76	Health\Mental health\Psychology/Psychiatry:0.976578,Law-Government-Politics:0.822233,Health:0.63595,Lifestyle\Wedding & Engagement:0.651,Careers:0.651,Lifestyle\Religion and Belief:0.970231,Arts & Entertainment\Books and Literature:0.953523
+Affect (psychology)	5.516323474406843	76	Family & Parenting\Kids & Teens:0.492936,Health\Mental health\Psychology/Psychiatry:0.993506
+Abraham Maslow	5.47034356510188	73	Health\Mental health\Psychology/Psychiatry:0.95818,Health\Mental health:0.922117,Health:0.510441,Health\Health Conditions:0.651,Sciences:0.95,Arts & Entertainment\Books and Literature:0.951106,Health\Health Conditions\Heart Disease:0.766998
+Industrial and organizational psychology	6.530357692559846	73	Health\Mental health\Psychology/Psychiatry:0.999999,Health\Mental health:0.792922,Health\Aging and Geriatrics:0.500775,Health:0.977548,Health\Health Conditions\Depression:0.702983,Education:0.859451,Online communities\Social networking:0.48327
+Hypnosis	5.0168016382998895	73	Health\Mental health\Psychology/Psychiatry:0.809141
+Big Five personality traits	4.0433553811968705	72	Health\Mental health\Psychology/Psychiatry:0.780605
+Operant conditioning	6.864025530808479	72	Health\Mental health\Psychology/Psychiatry:0.658901
+Royal College of Psychiatrists	7.0918356085801655	72	Health\Mental health:0.97028,Education:0.732878,Health:0.407704,Health\Mental health\Psychology/Psychiatry:0.984064
+Attitude (psychology)	5.46647212466974	71	Health\Mental health\Psychology/Psychiatry:0.914499
+Psychological manipulation	5.829415251067631	71	Health:0.699458,Health\Mental health\Psychology/Psychiatry:0.973233
+Positive psychology	5.377016382330453	71	Health\Mental health:0.4461,Health\Mental health\Psychology/Psychiatry:0.97829
+Introspection	5.572457090750363	70	Health\Mental health\Psychology/Psychiatry:0.971178
+Problem solving	5.861884568867805	69	Sciences\Computer science:0.722952,Health\Mental health\Psychology/Psychiatry:0.932242
+Electroconvulsive therapy	5.059001523073177	67	Health\Mental health\Psychology/Psychiatry:0.999008,Health\Mental health:0.930743,Health:0.983153,Health\Health Conditions:0.898915,Health\Health Conditions\Depression:0.969114,Family & Parenting\Pregnancy:0.654483,Health\Health Conditions\Bipolar Disorder:0.878301
+Family therapy	5.627338072726724	67	Health\Mental health\Psychology/Psychiatry:0.980223,Health\Mental health:0.822349,Health:0.973529,Lifestyle\Dating:0.50118,Family & Parenting:0.85056
+Emil Kraepelin	4.937670231924154	67	Health\Mental health\Psychology/Psychiatry:0.998768,Business\Biotech/Biomedical:0.381563,Health\Mental health:0.382795,Sciences:0.95,Arts & Entertainment\Books and Literature:0.950556,Health\Health Conditions\Depression:0.688946,Health\Health Conditions\Bipolar Disorder:0.771581
+Humanistic psychology	5.229619211092955	66	Health\Health Conditions\Depression:0.497248,Health\Mental health\Psychology/Psychiatry:0.997554
+Carl Rogers	5.180945293479423	66	Health\Mental health\Psychology/Psychiatry:0.972204,Health\Mental health:0.585663,Sciences:0.95,Family & Parenting:0.702272,Arts & Entertainment\Books and Literature:0.951106,Health\Health Conditions\Depression:0.36071,Education:0.912127
+Human brain	7.02979926454636	65	Health\Mental health\Psychology/Psychiatry:0.944393,Health:0.792564,Pets & Animals:0.798303,Health\Health Conditions\Autism/PDD:0.672236,Health\Health Conditions\Depression:0.880577,Health\Health Conditions\Epilepsy:0.754888,Health\Health Conditions\Brain Tumor:0.883857
+Psychological warfare	6.847552131965145	65	Law-Government-Politics:0.8962,Health\Mental health:0.492732,Health\Health Conditions\Depression:0.596498,Health\Mental health\Psychology/Psychiatry:0.999979
+Empiricism	6.671062395316448	65	Health\Mental health\Psychology/Psychiatry:0.526349
+Analytical psychology	5.129737773527334	64	Health\Mental health\Psychology/Psychiatry:0.851006
+Myers–Briggs Type Indicator	4.177877119350135	63	Health\Mental health\Psychology/Psychiatry:0.996423
+Factor analysis	6.016728039999171	63	Health\Mental health\Psychology/Psychiatry:0.41068
+Homosexuality	4.528727585002366	63	Negative\Mature/Adult:0.628596,Health\Mental health\Psychology/Psychiatry:0.99122,Family & Parenting\Kids & Teens:0.868912,Health:0.890049,Pets & Animals:0.885604,Lifestyle\Religion and Belief:0.728704,Family & Parenting:0.565346
+Steven Pinker	4.53292139293639	62	Reference\Language Resources\Foreign Language Study:0.565926,Health\Mental health\Psychology/Psychiatry:0.998268,Sciences:0.95,Lifestyle\Religion and Belief:0.675238,Arts & Entertainment\Books and Literature:0.953957,Education:0.690993,Online communities\Social networking:0.49064
+Psychophysics	5.054261885875931	62	Health\Mental health\Psychology/Psychiatry:0.813718
+Anger	3.8008757249672973	62	Negative\Mature/Adult:0.507808,Health\Mental health\Psychology/Psychiatry:0.96939,Health:0.571805,Health\Health Conditions:0.95,Pets & Animals:0.682339
+R. D. Laing	4.234341234139691	62	Health\Mental health\Psychology/Psychiatry:0.994593,Arts & Entertainment\Pop Culture & Celebrity News:0.95,Arts & Entertainment\Movies/Television:0.95,Health\Mental health:0.823597,Health\Health Conditions:0.704906,Arts & Entertainment\Books and Literature:0.955945,Education:0.697911
+Stereotype	4.12523007310292	61	Health\Mental health\Psychology/Psychiatry:0.927429
+Thought	5.207451931898563	61	Health\Mental health\Psychology/Psychiatry:0.943402
+Neurosis	4.490467218946923	61	Health\Health Conditions:0.659672,Health\Mental health\Psychology/Psychiatry:0.816453
+Schema (psychology)	4.052505248992452	60	Health\Mental health\Psychology/Psychiatry:0.983437
+Anti-psychiatry	5.103285172363605	59	Health\Mental health\Psychology/Psychiatry:0.999988,Health\Mental health:0.938046,Health:0.429526,Health\Pharmacy:0.767756,Health\Health Conditions\Depression:0.620445
+Subjectivity	5.187217379463398	59	Health\Mental health\Psychology/Psychiatry:0.490934
+Psychological repression	4.515447868774132	58	Health\Mental health:0.488374,Health\Health Conditions\Depression:0.553325,Health\Mental health\Psychology/Psychiatry:0.992524
+Hysteria	4.341236706541152	58	Health\Health Conditions:0.675983,Health\Mental health\Psychology/Psychiatry:0.82964
+Trait theory	3.680388597773569	58	Health\Mental health\Psychology/Psychiatry:0.80512
+Propaganda	6.260851557896671	57	Health:0.363759,Health\Mental health\Psychology/Psychiatry:0.908682
+Transference	3.884055994910156	57	Health\Mental health\Psychology/Psychiatry:0.571293
+Behavioral economics	3.9813737334006825	56	Health\Mental health\Psychology/Psychiatry:0.983301,Style & Fashion\Skin & Facial Care:0.651,Style & Fashion\Cosmetic procedures:0.651,Finance\Investing\Stocks:0.475595,Finance:0.917059
+Torture	5.5147270455566115	56	Negative\Mature/Adult:0.779344,Law-Government-Politics:0.757724,Pets & Animals:0.661776,Health\Mental health\Psychology/Psychiatry:0.997806
+PsycINFO	4.626141630722366	56	Health\Mental health\Psychology/Psychiatry:0.957491,Electronics & Computing\Software:0.661782
+Involuntary commitment	5.728052751264523	54	Health\Health Conditions\Depression:0.554569,Health\Health Conditions\Bipolar Disorder:0.795695,Health\Health Conditions:0.677433,Health\Mental health\Psychology/Psychiatry:0.996376
+Identity (social science)	3.6672681911450518	54	Health\Mental health\Psychology/Psychiatry:0.779641
